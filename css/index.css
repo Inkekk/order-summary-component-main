@@ -26,8 +26,14 @@ main {
   max-width: 337.500px;
 }
 
+.wrapper {
+  padding: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 .product-container {
-  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -101,7 +107,6 @@ a {
 }
 
 .buttons {
-  padding: 0 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 20px;
